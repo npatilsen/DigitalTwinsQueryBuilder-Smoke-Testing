@@ -44,6 +44,27 @@ namespace DigitalTwinsQueryBuilder_Smoke_Testing
                 .Build()
                 .GetQueryText();
             Debug.Assert(query4 == "SELECT T.Temperature, T.Occupants, T.People AS Peeps FROM DigitalTwins T");
+
+            string query5 = new DigitalTwinsQueryBuilder()
+                .SelectAll()
+                .From(DigitalTwinsCollection.DigitalTwins)
+                .Where(q => q
+                    .Precedence(q => q
+                        .IsOfType("Occupants", DigitalTwinsDataType.DigitalTwinsNumber)
+                        .And()
+                        .Compare("Occupants", QueryComparisonOperator.GreaterOrEqual, 40))
+                    .Or()
+                    .IsOfModel("occupiedApartment"))
+                .Build()
+                .GetQueryText();
+            Debug.Assert(query5 == "SELECT * FROM DigitalTwins WHERE(IS_NUMBER(Occpuants) AND Occupants >= 40) OR IS_OF_MODEL(occupiedApartment)");
+
+            string query6 = new DigitalTwinsQueryBuilder()
+                .SelectAs("Temperature", "Temp")
+                .FromCustom("DigitalTwins T")
+                //.Where("Test")  no whereCustom?
+                .Build()
+                .GetQueryText();
         }
     }
 }
