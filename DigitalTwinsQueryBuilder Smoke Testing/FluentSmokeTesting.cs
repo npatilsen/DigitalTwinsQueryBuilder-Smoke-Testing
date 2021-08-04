@@ -65,6 +65,20 @@ namespace DigitalTwinsQueryBuilder_Smoke_Testing
                 //.Where("Test")  no whereCustom?
                 .Build()
                 .GetQueryText();
+
+            string query7 = new DigitalTwinsQueryBuilder()
+                .SelectAll()
+                .From(DigitalTwinsCollection.DigitalTwins)
+                .Where(q => q
+                    .IsNull("Occupied")
+                    .Or()
+                    .Precedence(q => q
+                        .IsOfType("Location", DigitalTwinsDataType.DigitalTwinsString)
+                        .And()
+                        .NotContains("Location", new string[] { "Texas", "North Dakota" })))
+                .Build()
+                .GetQueryText();
+            Debug.Assert(query7 == "SELECT * FROM DigitalTwins WHERE IS_NULL(Occupants) OR (IS_STRING(Location) AND NIN(['Texas', 'North Dakota']))");
         }
     }
 }
