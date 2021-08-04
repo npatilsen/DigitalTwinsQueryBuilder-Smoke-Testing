@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalTwinsQueryBuilder Smoke Testing", "DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing.csproj", "{A3788545-A4AC-4D61-9DD0-FB833456AC01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3788545-A4AC-4D61-9DD0-FB833456AC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3788545-A4AC-4D61-9DD0-FB833456AC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3788545-A4AC-4D61-9DD0-FB833456AC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3788545-A4AC-4D61-9DD0-FB833456AC01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BD7140F-FBDC-40B6-9018-4069D09D3D6C}
+	EndGlobalSection
+EndGlobal

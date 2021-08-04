@@ -1,0 +1,19 @@
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.exe
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.deps.json
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.runtimeconfig.json
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.runtimeconfig.dev.json
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.dll
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.pdb
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\Azure.DigitalTwins.Core.dll
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.csproj.AssemblyReference.cache
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.AssemblyInfoInputs.cache
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.AssemblyInfo.cs
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.csproj.CoreCompileInputs.cache
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.csproj.CopyComplete
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.dll
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.pdb
+C:\Users\t-npatilsen\source\repos\DigitalTwinsQueryBuilder Smoke Testing\DigitalTwinsQueryBuilder Smoke Testing\obj\Debug\netcoreapp3.1\DigitalTwinsQueryBuilder Smoke Testing.genruntimeconfig.cache
