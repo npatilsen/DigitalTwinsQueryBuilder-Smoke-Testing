@@ -60,11 +60,12 @@ namespace DigitalTwinsQueryBuilder_Smoke_Testing
             Debug.Assert(query5 == "SELECT * FROM DigitalTwins WHERE(IS_NUMBER(Occpuants) AND Occupants >= 40) OR IS_OF_MODEL(occupiedApartment)");
 
             string query6 = new DigitalTwinsQueryBuilder()
-                .SelectAs("Temperature", "Temp")
+                .SelectAs("T.Temperature", "Temp")
                 .FromCustom("DigitalTwins T")
-                //.Where("Test")  no whereCustom?
+                .Where(q => q.Custom("someCondition"))
                 .Build()
                 .GetQueryText();
+            Debug.Assert(query6 == "SELECT T.Temperature AS Temp FROM DigutalTwins T WHERE someCondition");
 
             string query7 = new DigitalTwinsQueryBuilder()
                 .SelectAll()
